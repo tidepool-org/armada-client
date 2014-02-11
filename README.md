@@ -1,4 +1,4 @@
-armada-client
-=============
+message-api-client
+==================
 
-Client library for interacting with armada
+Client library to make it easier to use the message-api

@@ -1,0 +1,31 @@
+{
+  "name": "message-api-client",
+  "version": "0.0.1",
+  "description": "Client library to make it easier to use the message-api",
+  "main": "index.js",
+  "homepage": "https://github.com/tidepool-org/armada-client",
+  "bugs": "https://github.com/tidepool-org/armada-client/issues",
+  "repository": "https://github.com/tidepool-org/armada-client.git",
+  "license": "Tidepool",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Tidepool",
+  "devDependencies": {
+    "expect": "0.0.2",
+    "mocha": "1.17.1",
+    "grunt": "0.4.2",
+    "grunt-contrib-jshint": "0.8.0",
+    "grunt-contrib-uglify": "0.3.2",
+    "grunt-docco2": "0.1.5",
+    "grunt-shell-spawn": "0.3.0",
+    "grunt-mocha-test": "0.8.2",
+    "chai": "1.8.1",
+    "restify": "2.6.1"
+  },
+  "dependencies": {
+    "url": "0.7.9",
+    "amoeba": "0.0.3",
+    "request": "2.33.0"
+  }
+}
