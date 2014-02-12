@@ -15,4 +15,4 @@
 
 'use strict';
 
-exports.client = require('./lib/client.js');
+module.exports = require('./lib/client.js');
