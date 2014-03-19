@@ -34,44 +34,19 @@ module.exports = function(grunt) {
       },
       all: ['Gruntfile.js', 'lib/**/*.js', 'test/**/*.js']
     },
-    docco: {
-      docs: {
-        src: ['lib/**/*.js', './*.md'],
-        dest: ['docs'],
+    mochaTest: {
+      unit: {
         options: {
-          layout: 'linear',
-          output: 'docs'
-        }
+          reporter: 'spec'
+        },
+        src: ['test/unit/**/*.js']
       }
-    },
-    shell: {
-      addlicense: {
-          // this may not be the best way to do this dependency, but this isn't
-          // a task we're going to run that often.
-          command: 'python ../central/tools/addLicense.py "*/*.js"',
-          options: {
-            async: false,
-            execOptions: {
-              cwd: './lib/'
-            }
-          }
-        }
-      },
-      mochaTest: {
-        unit: {
-          options: {
-            reporter: 'spec'
-          },
-          src: ['test/unit/**/*.js']
-        }
-      }
-    });
+    }
+  });
 
   // Load the plugins
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-docco2');
-  grunt.loadNpmTasks('grunt-shell-spawn');
   grunt.loadNpmTasks('grunt-mocha-test');
 
   // Default task(s).
