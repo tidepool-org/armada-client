@@ -14,7 +14,7 @@
 // == BSD2 LICENSE ==
 
 'use strict';
-var expect = require('chai').expect;
+var expect = require('salinity').expect;
 
 describe('armada client', function() {
 
