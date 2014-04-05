@@ -1,6 +1,6 @@
 {
   "name": "tidepool-armada-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client library to make it easier to use armada",
   "homepage": "https://github.com/tidepool-org/armada-client",
   "bugs": "https://github.com/tidepool-org/armada-client/issues",
