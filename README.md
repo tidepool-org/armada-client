@@ -1,6 +1,8 @@
 armada-client
 ==================
 
-[![Build Status](https://travis-ci.org/tidepool-org/armada-client.png)](https://travis-ci.org/tidepool-org/armada-client)
+## DEPRECATED 
 
-Client library to make it easier to use [armada](https://github.com/tidepool-org/armada)
+the groups api, armada, is no longer used
+
+[![Build Status](https://travis-ci.org/tidepool-org/armada-client.png)](https://travis-ci.org/tidepool-org/armada-client)
